@@ -138,5 +138,148 @@ html, body {
 .container-list ul li {
     margin-top: 18px;
     color: white;
-    /*! Video 35:05 */
+}
+
+.container-2 {
+    padding: 70px 2%;
+    background-color: #dddddd;
+    text-align: center;
+}
+
+.container-2 h2 {
+    font-weight: normal;
+}
+
+.container-2 p {
+    width: 100%;
+    max-width: 768px;
+    margin: 15px;
+    display: inline-block;
+    text-align: justify;
+}
+
+.arrow {
+    position: relative;
+    top: 90px;
+    left: 50%;
+    margin-right: -50px;
+    width: 40px;
+    height: 40px;
+    background-image: url('/Landing_Page4/images/arrow.png');
+    background-size: 100% 100%;
+}
+
+.section-1 {
+    padding: 90px 2%;
+}
+
+.section-1 h2 {
+    text-align: center;
+    color: #505050;
+    font-weight: normal;
+}
+
+.container-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-single {
+    float: left;
+    width: 33.3333%;
+    padding: 30px;
+}
+
+.container-single:last-child {
+    margin-right: 0;
+}
+
+.container-single p {
+    display: inline-block;
+    text-align: justify;
+    padding: 10px;
+}
+
+.container-single img {
+    width: 70px;
+}
+
+.footer {
+    border-top: 2px solid #888888;
+    padding: 20px 0;
+    text-align: center;
+    color: #888;
+}
+
+.footer p {
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        height: auto;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .header img {
+        margin-top: 0;
+    }
+    .form {
+        max-width: 400px;
+        padding: 10px;
+        width: 60%;
+        height: 100%;
+        float: right;
+        top: 0px;
+    }
+    .container-banner {
+        width: 100%;
+        padding: 40 2%;
+        height: auto;
+        text-align: center;
+    }
+    .container-list {
+        padding: 30px;
+        width: 40%;
+        float: left;
+        display: inline-block;
+        max-width: 500px;
+        height: auto;
+    }
+    .input-container input[type=text] {
+        width: 100%;
+        height: 55px;
+    }
+    .form input[type=submit] {
+        max-width: 280px;
+        width: 100%;
+        height: 56px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-2 {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .container-list {
+        margin-top: 0;
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+    .fomr {
+        float: none;
+        display: inline-block;
+        width: 90%;
+        margin-top: 30px;
+    }
+    .container-single {
+        float: none;
+        display: inline-block;
+        width: 100%;
+        max-width: 600px;
+        padding: 30px;
+    }
 }
